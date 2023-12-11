@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: url(ballina-prapavija.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.col {
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    min-height: 600px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .9);
+    padding: 40px 30px;
+    background-color: rgba(42, 59, 65, 0.815);
+}
+
+.btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 5px;
+    margin-top: 8px
+}
+
+button {
+    background-color: #239b95;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn button a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(42, 59, 65);
+    padding: 10px;
+    font-size: 17px;
+}
+
+.btn button a:hover {
+    background-color: royalblue;
+    color: #fff;
+    transition: all ease 0.4s;
+    border: none;
+    border-radius: 15px;
+}
+
+/* .logo {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+} */
+
+.logo img {
+    padding-bottom: 10px;
+    padding-right: 22%;
+    padding-left: 22%;
+}
+
+.rrethnesh {
+    padding: 5px;
+}
+
+.rrethnesh h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.rrethnesh p {
+    margin-bottom: 8px;
+    color: mediumturquoise;
+}
